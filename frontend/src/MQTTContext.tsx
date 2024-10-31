@@ -49,7 +49,6 @@ export function MQTTProvider({ children }: { children: React.ReactNode }) {
   );
 }
 
-// Custom hook to use MQTT client
 export function useMQTTClient() {
   const context = useContext(MQTTContext);
   if (context === undefined) {
